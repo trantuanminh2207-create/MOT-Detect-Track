@@ -6,15 +6,22 @@ Video test and demo: https://drive.google.com/drive/folders/11EmGQstP6qkNjHaWbdS
 
 Mô tả về điều kiện test:
 Vì code được viết để có thể sử dụng trên cả 2 nền tảng 
+
 Cấu hình 1: gtx 1660 supper
             intel i5 11400f
+
 Cấu hình 2: Intel i3 10005g1
 
+
 Độ phân giải video test 1920x1080
+
 phiên bản python: Python 3.11.9
-Yolov11
+Mô hình sử dụng: Yolov11
 
 NHẬN XÉT: 
+Yolov11 là mô hình được chọn (Thay vì sử dụng Yolov8 hay Yolo2026) là do nó vẫn có khả năng bắt được các vật thể nhỏ với độ phân giải thấp, latency thấp hơn so với v8 mà vẫn giữ được khả năng tương thích tốt với phần cứng hơn so với v2026
+
+
 Trường hợp 1 - Yolov11n:
 Tốc độ xử lý đạt tốc độ nhanh nhất, tuy nhiên yêu cầu cần có video độ phân giải cao và config giá trị imgsz cao để có thể đạt độ chính xác. Tuy nhiên imgsz càng cao, tốc độ xử lý càng chậm, vì vậy loại bỏ trường hợp 1
 
