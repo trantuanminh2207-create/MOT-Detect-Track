@@ -1,5 +1,7 @@
 Library: pip install ultralytics opencv-python torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121z
+
 Run: python detect_track.py
+
 Video test and demo: https://drive.google.com/drive/folders/11EmGQstP6qkNjHaWbdS0_4oB3MURvH7M?usp=sharing
 
 Mô tả về điều kiện test:
