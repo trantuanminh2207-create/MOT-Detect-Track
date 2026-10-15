@@ -34,3 +34,6 @@ Trường hợp 3 - Yolov11m:
 tốc độ xử lý nhanh
 
 --> kết luận: Em lựa chọn Yolov11s làm mô hình cho dự án này.
+
+Nhìn chung độ chính xác phụ thuộc vào những yếu tố là cấu hình phần cứng, mô hình sử dụng, config và nguồn dữ liệu đầu vào.
+Những sai sót của hệ thống bao gồm nhận diện chậm, xác định nhầm 1 số vật thể với nhau như bus và truck
